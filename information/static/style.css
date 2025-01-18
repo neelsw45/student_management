@@ -1,0 +1,350 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(105, 103, 103);
+    /* height: 10px */
+  }
+  
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+  
+.sidenav a {
+  padding: 40px 8px 6px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+  
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+  
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  /* background-color: #f1f1f1; */
+  /* background-color: #111; */
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  
+}
+
+.admin-img img{
+  border-radius: 50%;
+}
+
+.admin-img{
+  padding-left: 23px;
+}
+
+.stu-label{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px; 
+  margin-bottom: 50px;
+  
+}
+
+.add{
+  height: auto;
+}
+
+/*  */
+
+
+.edit,.add,.contact{
+  width: 1200px;
+  background-color: #d0cbcb;
+  /* height: 300px; */
+  margin-left: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px white  ;
+}
+
+.stu-heading{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.stu-name{
+  padding-top: 3px;
+  padding-left: 60px;
+  border-radius: 100px;
+  display: flex;
+  width: 250px;
+  color: white ;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-weight: 800;
+  
+}
+
+.stu-add{
+  padding-top:  3px;
+  padding-left: 20px;
+  border-radius: 100px;
+  display: flex;
+  width: 250px;
+  color: white ;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-weight: 800;
+  
+}
+
+span hr{
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  
+}
+
+.addstu-btn button{
+  height: 50px;
+  width: 200px;
+  border: 2px solid white;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.search-bar form{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 700px;
+  align-items: center;
+  margin-top: 8px;
+
+  
+}
+
+.form-control{
+  height: 50px;
+  border: 2px solid black;
+}
+
+.search-bar .form-control{
+  width: 500px;
+  border-radius: 100px;
+}
+
+.search-bar .btn-success{
+  width: 190px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+.search-bar .btn-success,.btn-primary{
+  font-size: 27px;
+  padding-top: 4px;
+}
+
+
+/* --------- */
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  max-width: 700px;
+  min-height: 200px;
+  padding: 0;
+  color: whitesmoke;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.about{
+  background: url("./img/student.jpg");
+  background-color: #212121;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 630px;
+}
+
+.about-tile{
+  padding-top: 50px;
+}
+
+.para{
+  margin-top: 170px;
+  padding-left: 300px;  
+}
+
+.para p{
+  font-size: 16px;
+}
+
+.table-striped{
+  border: 5px solid white;
+  border-radius: 100px;
+}
+
+.table-striped .btn-success,.btn-danger{
+  width:200px;
+  height: 50px;
+  font-size: 25px;
+}
+
+.delete{
+  border: 5px solid black;
+  width: 800px;
+  margin-top: 170px;
+  margin-left: 220px;
+  border-radius: 50px;
+  align-items: center;
+  height: 300px;
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 100px 50px white;
+  box-sizing: border-box;
+}
+
+.delete-one{
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 40px;
+  /* border: 2px solid red; */
+  color: blue;
+  font-weight: 1000;
+}
+
+.delete-two{
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  /* border: 2px solid blue; */
+  margin-top: 20px;
+  width: 500px;
+  margin-left:140px ;
+
+  
+}
+
+.contact-action{
+  border: 5px solid black;
+  width: 800px;
+  margin-top: 170px;
+  margin-left: 220px;
+  border-radius: 50px;
+  align-items: center;
+  height: 300px;
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 100px 50px white;
+  box-sizing: border-box;
+}
+
+.contact-one{
+  margin-left: 35px;
+  margin-top: 50px;
+  font-size: 40px;
+  /* border: 2px solid red; */
+  color: blue;
+  font-weight: 1000;
+}
+
+.contact-two{
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  /* border: 2px solid blue; */
+  margin-top: 20px;
+  width: 500px;
+  margin-left:140px ;
+
+  
+}
+
+.yes button,.no button{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  /* margin-left: 50%; */
+  border: 3px solid black;
+
+  
+}
+
+.yes button{
+  background-color: rgb(32, 191, 32);
+  color: white;
+}
+
+.no button{
+  background-color: rgb(255, 10, 10);
+  color: white;
+  margin-right: 50%;
+  
+}
+
+.yes button:hover{
+  background-color: rgb(29, 250, 29);
+  color: black;
+  border:3px solid red;
+}
+
+.no button:hover{
+  background-color: rgb(255, 81, 81);
+  color: black;
+  border:3px solid rgb(49, 242, 49);
+}
+
+.d-grid .btn-primary{
+  width: 550px;
+}
+
+
+
+
+
+
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
